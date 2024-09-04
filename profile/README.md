@@ -2,8 +2,6 @@
 - **Back-End**: Vitin + Dedas
 - **Front-End**: Simplicio + Vitão
 
----
-
 ## Tecnologias Utilizadas
 
 ### Back-End
@@ -16,7 +14,6 @@
 - Linguagem: **JavaScript/TypeScript**
 - Framework/Biblioteca: **React**
 
----
 
 ## Requisitos Funcionais
 
