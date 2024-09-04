@@ -1,34 +1,47 @@
-Site / WebApp
+### Equipe
+- **Back-End**: Vitin + Dedas
+- **Front-End**: Simplicio + Vitão
 
-Simplicio + Vitão: Back-End
-Vitin + Dedas:     Front-End
+---
 
+## Tecnologias Utilizadas
 
-Técnologias Back-End:
+### Back-End
+- Linguagem: **Java**
+- Framework: **Java Spring**
+- Banco de Dados: **MySQL**
+- API de Verificação: **API do Governo (para CPF e CNPJ)**
 
-Back-end em Java, com Java Spring
+### Front-End
+- Linguagem: **JavaScript/TypeScript**
+- Framework/Biblioteca: **React**
 
+---
 
-Começar:
+## Requisitos Funcionais
 
-Sistema de Log-In e cadastro. (Sistema de Token?)
+| ID  | Requisito                                                                                       |
+|-----|-------------------------------------------------------------------------------------------------|
+| RF1 | Deve permitir login e cadastro para pessoas jurídicas e físicas.                                |
+| RF2 | Deve permitir a doação de roupas.                                                               |
+| RF3 | Deve permitir receber doações de roupas.                                                        |
+| RF4 | Deve permitir recuperar senha e e-mail.                                                         |
+| RF5 | Deve permitir editar perfil (alterar celular, nome e outros dados da conta).                    |
+| RF6 | Deve permitir inserção, remoção e edição de roupas cadastradas no aplicativo.                    |
+| RF7 | O usuário deve poder remover pedidos de doação.                                                  |
+| RF8 | As ONGs devem ter a possibilidade de aceitar ou recusar as doações.                             |
 
-Requisitos Funcionais:
+---
 
-Deve ter login de cadastro para pessoas juridicas e físicas.
-Deve permitir a doação de roupas
-Deve permitir Receber Roupa
-Deve permitir recuperar a senha, recuperar e-mail
-Deve permitir alterar celular, nome, e outros requisitos da conta (editar perfil)
-Deve permitir a inserção, remoção e a edição de roupas lançadas no aplicativo.
-O úsuario deve poder remover pedidos.
-As ONGS devem ter a possibilidade de aceitar ou recusar a doação.
+## Requisitos Não Funcionais
 
+| ID  | Requisito                                                                                |
+|-----|------------------------------------------------------------------------------------------|
+| RNF1| O sistema deve continuar funcionando adequadamente em caso de falta de internet temporária.|
+| RNF2| O banco de dados deve ser **MySQL**.                                                     |
+| RNF3| O back-end deve ser desenvolvido em **Java** utilizando **Java Spring**.                  |
+| RNF4| O front-end deve ser desenvolvido em **React**.                                           |
+| RNF5| A interface deve ser intuitiva e de fácil uso.                                           |
+| RNF6| Deve usar a **API do governo** para verificação de CPF e CNPJ.                            |
 
-Requisitos Não Funcionais:
-
-Não deve dar muito pau quando falta internet.
-Deve utilizar MySQL para o banco de dados
-Deve utilizar Java e JavaSpring para o Back-End
-Deve ser de facíl uso
-Deve usar API do governo para fazer a verificação de CPF e CNPJ
+---
