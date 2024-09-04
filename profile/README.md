@@ -31,3 +31,4 @@ Não deve dar muito pau quando falta internet.
 Deve utilizar MySQL para o banco de dados
 Deve utilizar Java e JavaSpring para o Back-End
 Deve ser de facíl uso
+Deve usar API do governo para fazer a verificação de CPF e CNPJ
